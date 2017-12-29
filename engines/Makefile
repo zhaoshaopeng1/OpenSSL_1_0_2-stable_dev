@@ -26,7 +26,7 @@ TEST=
 APPS=
 
 LIB=$(TOP)/libcrypto.a
-LIBNAMES= 4758cca aep atalla cswift gmp chil nuron sureware ubsec padlock capi oezganengine
+LIBNAMES= 4758cca aep atalla cswift gmp chil nuron sureware ubsec padlock capi oezganengine wdsec
 
 LIBSRC=	e_4758cca.c \
 	e_aep.c \
@@ -44,6 +44,7 @@ LIBOBJ= e_4758cca.o \
 	e_aep.o \
 	e_atalla.o \
 	e_cswift.o \
+	e_wdsec.o \
 	e_gmp.o \
 	e_chil.o \
 	e_nuron.o \
